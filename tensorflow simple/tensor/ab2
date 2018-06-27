@@ -1,0 +1,19 @@
+
+import tensorflow as tf
+
+a = tf.placeholder(tf.int32, name='a')  # input
+b = tf.placeholder(tf.int32, name='b')  # input
+times = tf.Variable(name="times", dtype=tf.int32, initial_value=2)
+c = tf.pow(tf.add(a, b), times, name="c")
+
+saver = tf.train.Saver()
+init_op = tf.global_variables_initializer()
+with tf.Session() as sess:
+    sess.run(init_op)
+
+    tf.train.write_graph(sess.graph_def, '.', 'tfdroid.pbtxt')
+    sess.run(tf.assign(name="times", value=2, ref=times))
+    # save the graph
+
+    # save a checkpoint file, which will store the above assignment
+    saver.save(sess, './tfdroid.ckpt')
