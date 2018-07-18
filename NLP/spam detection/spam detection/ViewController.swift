@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  coreml test
-//
-//  Created by Sanad on 21/09/17.
-//  Copyright © 2017 analytics vidhya. All rights reserved.
-//
 
 import UIKit
 import CoreML
