@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ai.fritz:vision-label-model-1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/vision-label-model-1.0.1.aar/53347f04ee90124ec634b33e6618a12e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/vision-label-model-1.0.1.aar/53347f04ee90124ec634b33e6618a12e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ai.fritz/vision-label-model/1.0.1/c520b6989bd8160f3cb1ec20e23e5b7d692bbfe7/vision-label-model-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

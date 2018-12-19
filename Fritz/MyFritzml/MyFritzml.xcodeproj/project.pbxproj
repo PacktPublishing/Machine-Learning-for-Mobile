@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1390670021C8DB8E003B32B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139066FF21C8DB8E003B32B5 /* AppDelegate.swift */; };
+		1390670221C8DB8E003B32B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1390670121C8DB8E003B32B5 /* ViewController.swift */; };
+		1390670521C8DB8E003B32B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1390670321C8DB8E003B32B5 /* Main.storyboard */; };
+		1390670821C8DB8E003B32B5 /* MyFritzml.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1390670621C8DB8E003B32B5 /* MyFritzml.xcdatamodeld */; };
+		1390670A21C8DB91003B32B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1390670921C8DB91003B32B5 /* Assets.xcassets */; };
+		1390670D21C8DB91003B32B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1390670B21C8DB91003B32B5 /* LaunchScreen.storyboard */; };
+		13F46C9921C8E07300082E2C /* Fritz-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13F46C9821C8E07300082E2C /* Fritz-Info.plist */; };
+		13F46C9B21C8E14000082E2C /* HousePricer+Fritz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F46C9A21C8E14000082E2C /* HousePricer+Fritz.swift */; };
+		13F46C9D21C8E26400082E2C /* HousePricer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 13F46C9C21C8E26400082E2C /* HousePricer.mlmodel */; };
+		C11810004A3EB9DEF935F4BF /* Pods_MyFritzml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33351FAB1F49AC9A250D88D5 /* Pods_MyFritzml.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		115C4955887D12C1B53EB59F /* Pods-MyFritzml.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFritzml.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFritzml/Pods-MyFritzml.debug.xcconfig"; sourceTree = "<group>"; };
+		139066FC21C8DB8E003B32B5 /* MyFritzml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFritzml.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		139066FF21C8DB8E003B32B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1390670121C8DB8E003B32B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1390670421C8DB8E003B32B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1390670721C8DB8E003B32B5 /* MyFritzml.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFritzml.xcdatamodel; sourceTree = "<group>"; };
+		1390670921C8DB91003B32B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1390670C21C8DB91003B32B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1390670E21C8DB91003B32B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F46C9821C8E07300082E2C /* Fritz-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Fritz-Info.plist"; sourceTree = "<group>"; };
+		13F46C9A21C8E14000082E2C /* HousePricer+Fritz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HousePricer+Fritz.swift"; sourceTree = "<group>"; };
+		13F46C9C21C8E26400082E2C /* HousePricer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HousePricer.mlmodel; sourceTree = "<group>"; };
+		33351FAB1F49AC9A250D88D5 /* Pods_MyFritzml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFritzml.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB721A06369670478B9DF27F /* Pods-MyFritzml.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFritzml.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFritzml/Pods-MyFritzml.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		139066F921C8DB8E003B32B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11810004A3EB9DEF935F4BF /* Pods_MyFritzml.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05A8BEA67FEC770A4B43EA1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				115C4955887D12C1B53EB59F /* Pods-MyFritzml.debug.xcconfig */,
+				CB721A06369670478B9DF27F /* Pods-MyFritzml.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		139066F321C8DB8E003B32B5 = {
+			isa = PBXGroup;
+			children = (
+				139066FE21C8DB8E003B32B5 /* MyFritzml */,
+				139066FD21C8DB8E003B32B5 /* Products */,
+				05A8BEA67FEC770A4B43EA1D /* Pods */,
+				4781999A31A0AA9265CC1178 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		139066FD21C8DB8E003B32B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139066FC21C8DB8E003B32B5 /* MyFritzml.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139066FE21C8DB8E003B32B5 /* MyFritzml */ = {
+			isa = PBXGroup;
+			children = (
+				13F46C9C21C8E26400082E2C /* HousePricer.mlmodel */,
+				13F46C9821C8E07300082E2C /* Fritz-Info.plist */,
+				139066FF21C8DB8E003B32B5 /* AppDelegate.swift */,
+				1390670121C8DB8E003B32B5 /* ViewController.swift */,
+				1390670321C8DB8E003B32B5 /* Main.storyboard */,
+				1390670921C8DB91003B32B5 /* Assets.xcassets */,
+				1390670B21C8DB91003B32B5 /* LaunchScreen.storyboard */,
+				1390670E21C8DB91003B32B5 /* Info.plist */,
+				1390670621C8DB8E003B32B5 /* MyFritzml.xcdatamodeld */,
+				13F46C9A21C8E14000082E2C /* HousePricer+Fritz.swift */,
+			);
+			path = MyFritzml;
+			sourceTree = "<group>";
+		};
+		4781999A31A0AA9265CC1178 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33351FAB1F49AC9A250D88D5 /* Pods_MyFritzml.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		139066FB21C8DB8E003B32B5 /* MyFritzml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1390671121C8DB91003B32B5 /* Build configuration list for PBXNativeTarget "MyFritzml" */;
+			buildPhases = (
+				7C68867377F51BEE243E98D8 /* [CP] Check Pods Manifest.lock */,
+				139066F821C8DB8E003B32B5 /* Sources */,
+				139066F921C8DB8E003B32B5 /* Frameworks */,
+				139066FA21C8DB8E003B32B5 /* Resources */,
+				FFCEA48074B408C891F8578F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFritzml;
+			productName = MyFritzml;
+			productReference = 139066FC21C8DB8E003B32B5 /* MyFritzml.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		139066F421C8DB8E003B32B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Gtech Corporation";
+				TargetAttributes = {
+					139066FB21C8DB8E003B32B5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 139066F721C8DB8E003B32B5 /* Build configuration list for PBXProject "MyFritzml" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 139066F321C8DB8E003B32B5;
+			productRefGroup = 139066FD21C8DB8E003B32B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				139066FB21C8DB8E003B32B5 /* MyFritzml */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		139066FA21C8DB8E003B32B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1390670D21C8DB91003B32B5 /* LaunchScreen.storyboard in Resources */,
+				1390670A21C8DB91003B32B5 /* Assets.xcassets in Resources */,
+				13F46C9921C8E07300082E2C /* Fritz-Info.plist in Resources */,
+				1390670521C8DB8E003B32B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C68867377F51BEE243E98D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyFritzml-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFCEA48074B408C891F8578F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyFritzml/Pods-MyFritzml-frameworks.sh",
+				"${PODS_ROOT}/Fritz/Frameworks/FritzCore.framework",
+				"${PODS_ROOT}/Fritz/Frameworks/FritzManagedModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzManagedModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFritzml/Pods-MyFritzml-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		139066F821C8DB8E003B32B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1390670221C8DB8E003B32B5 /* ViewController.swift in Sources */,
+				13F46C9B21C8E14000082E2C /* HousePricer+Fritz.swift in Sources */,
+				1390670021C8DB8E003B32B5 /* AppDelegate.swift in Sources */,
+				13F46C9D21C8E26400082E2C /* HousePricer.mlmodel in Sources */,
+				1390670821C8DB8E003B32B5 /* MyFritzml.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1390670321C8DB8E003B32B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1390670421C8DB8E003B32B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1390670B21C8DB91003B32B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1390670C21C8DB91003B32B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1390670F21C8DB91003B32B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1390671021C8DB91003B32B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1390671221C8DB91003B32B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 115C4955887D12C1B53EB59F /* Pods-MyFritzml.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN2S4FKKMR;
+				INFOPLIST_FILE = MyFritzml/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gtech.MyFritzml;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1390671321C8DB91003B32B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB721A06369670478B9DF27F /* Pods-MyFritzml.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN2S4FKKMR;
+				INFOPLIST_FILE = MyFritzml/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gtech.MyFritzml;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		139066F721C8DB8E003B32B5 /* Build configuration list for PBXProject "MyFritzml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1390670F21C8DB91003B32B5 /* Debug */,
+				1390671021C8DB91003B32B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1390671121C8DB91003B32B5 /* Build configuration list for PBXNativeTarget "MyFritzml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1390671221C8DB91003B32B5 /* Debug */,
+				1390671321C8DB91003B32B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1390670621C8DB8E003B32B5 /* MyFritzml.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1390670721C8DB8E003B32B5 /* MyFritzml.xcdatamodel */,
+			);
+			currentVersion = 1390670721C8DB8E003B32B5 /* MyFritzml.xcdatamodel */;
+			path = MyFritzml.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 139066F421C8DB8E003B32B5 /* Project object */;
+}

@@ -1,0 +1,20 @@
+PODS:
+  - Fritz (2.2.2):
+    - Fritz/ManagedModel (= 2.2.2)
+  - Fritz/Core (2.2.2)
+  - Fritz/ManagedModel (2.2.2):
+    - Fritz/Core
+
+DEPENDENCIES:
+  - Fritz
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Fritz
+
+SPEC CHECKSUMS:
+  Fritz: d93805d9478087c1f386737c445858f92651d7ed
+
+PODFILE CHECKSUM: fab551f63fffaade1655e8f78cd0c47efbd058cd
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,5 @@
+XSym
+0039
+74a91ee55001f5f97c571bc8998b5bd4
+../../../Fritz/CoreOnly/Sources/Fritz.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
